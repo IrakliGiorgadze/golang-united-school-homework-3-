@@ -1,6 +1,8 @@
 package homework
 
 func sortMapValues(input map[int]string) (result []string) {
-	//Place your code here
-	return
+	for _, value := range input {
+		result = append(result, value)
+	}
+	return result
 }
